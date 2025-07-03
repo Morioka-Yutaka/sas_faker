@@ -1,0 +1,10 @@
+ data _null_; 
+  call symputX("packageName",       "sas_faker" , "L");
+  call symputX("packageVersion",    "0.1.0" , "L");
+  call symputX("packageTitle",      "sas_faker--SAS package to create dummy data in CDISC format for clinical trials" , "L");
+  call symputX("packageAuthor",     "Yutaka Morioka(sasyupi@gmail.com)" , "L");
+  call symputX("packageMaintainer", "Yutaka Morioka(sasyupi@gmail.com)" , "L");
+  call symputX("packageEncoding",   "UTF8" , "L");
+  call symputX("packageLicense",    "MIT" , "L");
+  call symputX("packageGenerated",  "2025-07-03T07:39:58" , "L");
+ run; 
