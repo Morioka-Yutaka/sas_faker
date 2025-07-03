@@ -61,6 +61,7 @@ Purpose: A macro to generate dummy clinical trial data. Creates datasets in SDTM
 Author: [Yutaka Morioka]<br>
 Date: July 2, 2025<br>
 Version: 0.1<br>
+
 Input Parameters:
   - n_groups: Number of groups (default=2)
   - n_per_group: Number of subjects per group (default=50)
@@ -74,13 +75,11 @@ Input Parameters:
   - create_adae: Flag to generate ADAE dataset (Y/N, default=Y)
   - create_adae: Flag to generate ADTTE dataset (Y/N, default=Y)
 
-
 Output:
   - SDTM datasets: DM, AE, SV, VS (if specified) <br>
   - ADaM datasets: ADSL, ADAE, ADVS, ADTTE (if specified) <br>
 
-  
-Notes: <br>
+Notes: 
   - Uses a random seed for reproducible data generation.
   - Utilizes the minimize_charlen macro to optimize character variable lengths.
   - Generated data mimics the structure of clinical trial data but is not real.
