@@ -15,5 +15,6 @@ Generates pseudo subject data, vital signs, study visits, and adverse events bas
 # dm domain
 ![Image](https://github.com/user-attachments/assets/a4ba4c51-793e-451d-ac23-c7d936d13ee4)
 
-# AE domain
+# ae domain
+For rights reasons, meddra variables have non-standard CDISC variable names, event names are dummy generated, and the dictionary form has the same structure as MedDRA, but is specific and different from MedDRA
 ![Image](https://github.com/user-attachments/assets/814db470-1a4c-47cb-931e-f956bebbffba)
