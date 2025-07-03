@@ -14,3 +14,6 @@ Generates pseudo subject data, vital signs, study visits, and adverse events bas
 
 # dm domain
 ![Image](https://github.com/user-attachments/assets/a4ba4c51-793e-451d-ac23-c7d936d13ee4)
+
+# AE domain
+![Image](https://github.com/user-attachments/assets/814db470-1a4c-47cb-931e-f956bebbffba)
