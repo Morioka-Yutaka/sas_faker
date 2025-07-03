@@ -20,4 +20,9 @@ For rights reasons, meddra variables have non-standard CDISC variable names, eve
 ![Image](https://github.com/user-attachments/assets/814db470-1a4c-47cb-931e-f956bebbffba)
 
 # vs domain
+Synchronized with the VISIT information of SV domain.
 ![Image](https://github.com/user-attachments/assets/8bce7257-0c12-4a15-9b42-63b724dc368f)
+
+# sv domain
+Synchronized with the VISIT information of the domain of the Finding Class.
+![Image](https://github.com/user-attachments/assets/ca99d459-4436-495e-b74a-51dbb1d5e2f9)
