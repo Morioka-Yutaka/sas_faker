@@ -5,5 +5,12 @@ Generates pseudo subject data, vital signs, study visits, and adverse events bas
 
 ![sas_faker](./sas_faker_small.png)  
 
-#dm domain
+~~~sas  
+/*example*/
+%sas_faker(n_groups=2,
+                 n_per_group=50, 
+                 output_lib=WORK)
+~~~
+
+# dm domain
 ![Image](https://github.com/user-attachments/assets/a4ba4c51-793e-451d-ac23-c7d936d13ee4)
