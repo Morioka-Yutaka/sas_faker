@@ -1,3 +1,3 @@
 # sas_faker
 SAS package to create dummy data in CDISC format for clinical trials
-![sas_faker](./sas_faker_Logo_small.png)  
+![sas_faker](./sas_faker_small.png)  
