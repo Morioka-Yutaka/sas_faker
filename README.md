@@ -13,6 +13,7 @@ Generates pseudo subject data, vital signs, study visits, and adverse events bas
 ~~~
 
 # dm domain
+Dummy is designed to be a randomized parallel-group　study, with a low probability of discontinuation or death data.
 ![Image](https://github.com/user-attachments/assets/a4ba4c51-793e-451d-ac23-c7d936d13ee4)
 
 # ae domain
