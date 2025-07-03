@@ -57,11 +57,11 @@ run;
 
 # %sas_faker
 Purpose: A macro to generate dummy clinical trial data. Creates datasets in SDTM (DM, AE, SV, VS) and ADaM (ADSL, ADAE) formats.
-         Generates pseudo subject data, vital signs, study visits, and adverse events based on user-specified group numbers and sample sizes.
-Author: [Yutaka Morioka]
-Date: July 2, 2025
-Version: 0.1
-Input Parameters:
+         Generates pseudo subject data, vital signs, study visits, and adverse events based on user-specified group numbers and sample sizes.<br>
+Author: [Yutaka Morioka]<br>
+Date: July 2, 2025<br>
+Version: 0.1<br>
+Input Parameters:<br>
   - n_groups: Number of groups (default=2)
   - n_per_group: Number of subjects per group (default=50)
   - output_lib: Output library (default=WORK)
@@ -73,20 +73,22 @@ Input Parameters:
   - create_adsl: Flag to generate ADSL dataset (Y/N, default=Y)
   - create_adae: Flag to generate ADAE dataset (Y/N, default=Y)
   - create_adae: Flag to generate ADTTE dataset (Y/N, default=Y)
+<br>
 Output:
-  - SDTM datasets: DM, AE, SV, VS (if specified)
-  - ADaM datasets: ADSL, ADAE, ADVS, ADTTE (if specified)
-Notes:
+  - SDTM datasets: DM, AE, SV, VS (if specified) <br>
+  - ADaM datasets: ADSL, ADAE, ADVS, ADTTE (if specified) <br>
+Notes: <br>
   - Uses a random seed for reproducible data generation.
   - Utilizes the minimize_charlen macro to optimize character variable lengths.
   - Generated data mimics the structure of clinical trial data but is not real.
   - Variable names related to MeDRA dictionary (e.g., F_AELLTCD, F_AEPTCD) are prefixed with "F_" to avoid infringement of intellectual property rights.
   - Adverse event terms and codes (AETERM, AEDECOD, AEBODSYS, etc.) are structured systematically but are fictitious dictionary coding data and unrelated to the actual MeDRA dictionary.
 
-Example:
+~~~sas  
+/*example*/
 ** Generate data with 3 treatment groups, 100 subjects per group.
 %generate_clinical_dummy_data(
 n_groups=3,
 n_per_group=100,
 seed=789012)
-
+~~~
