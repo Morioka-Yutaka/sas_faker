@@ -29,3 +29,5 @@ Synchronized with the VISIT information of the domain of the Finding Class.
 ![Image](https://github.com/user-attachments/assets/ca99d459-4436-495e-b74a-51dbb1d5e2f9)
 
 # adsl dataset
+It is created based on the information in the SDTM, mainly in the DM domain. For example, WEIGHTBL is consistent with VS domain information, which should basically be consistent with SDTM information.
+![Image](https://github.com/user-attachments/assets/804820d5-1284-4aec-853d-beaa31b15600)
