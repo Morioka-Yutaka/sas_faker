@@ -17,7 +17,8 @@ Dummy is designed to be a randomized parallel-group　study, with a low probabil
 ![Image](https://github.com/user-attachments/assets/a4ba4c51-793e-451d-ac23-c7d936d13ee4)
 
 # ae domain
-For rights reasons, meddra variables have non-standard CDISC variable names, event names are dummy generated, and the dictionary form has the same structure as MedDRA, but is specific and different from MedDRA
+For rights reasons, meddra variables have non-standard CDISC variable names, event names are dummy generated, and the dictionary form has the same structure as MedDRA, but is specific and different from MedDRA.
+For example, variables related to toxicity, such as severity, are set to be less likely to occur at higher values.
 ![Image](https://github.com/user-attachments/assets/814db470-1a4c-47cb-931e-f956bebbffba)
 
 # vs domain
@@ -31,3 +32,7 @@ Synchronized with the VISIT information of the domain of the Finding Class.
 # adsl dataset
 It is created based on the information in the SDTM, mainly in the DM domain. For example, WEIGHTBL is consistent with VS domain information, which should basically be consistent with SDTM information.
 ![Image](https://github.com/user-attachments/assets/804820d5-1284-4aec-853d-beaa31b15600)
+
+#adae dataset
+Created from AE domain information and ADSL
+![Image](https://github.com/user-attachments/assets/488ddfe0-6eb6-45fe-9269-32da5989f169)
