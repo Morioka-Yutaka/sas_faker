@@ -42,6 +42,14 @@ Created from AE domain information and ADSL
 Created from VS domain information and ADSL
 ![Image](https://github.com/user-attachments/assets/db22e49f-8b5e-4e33-a9c2-6830c37bf47e)
 
-#adtte dataset
+# adtte dataset
 The event times are adjusted for differences in appearance in the Kaplan-Meier curves for each Treatment Group(TRTP). If there are many groups, the same distribution will appear.
 ![Image](https://github.com/user-attachments/assets/b1293ce7-73b1-43e4-90cf-42942275c811)
+~~~sas  
+proc lifetest data=adtte
+  plots=survival(atrisk=1 7 14 21 28 35 42 49 56 63 70 77);
+  time AVAL * CNSR(1);
+  strata TRTPN ;
+run;
+~~~
+<img width="484" alt="Image" src="https://github.com/user-attachments/assets/d8fd5dbb-eaab-4e6a-aee7-1b34b029654b" />
