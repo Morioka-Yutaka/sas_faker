@@ -58,6 +58,7 @@ run;
 # %sas_faker
 Purpose: A macro to generate dummy clinical trial data. Creates datasets in SDTM (DM, AE, SV, VS) and ADaM (ADSL, ADAE) formats.
          Generates pseudo subject data, vital signs, study visits, and adverse events based on user-specified group numbers and sample sizes.<br>
+         
 Author: [Yutaka Morioka]<br>
 Date: July 2, 2025<br>
 Version: 0.1<br>
@@ -74,6 +75,7 @@ Input Parameters:
   - create_adsl: Flag to generate ADSL dataset (Y/N, default=Y)
   - create_adae: Flag to generate ADAE dataset (Y/N, default=Y)
   - create_adae: Flag to generate ADTTE dataset (Y/N, default=Y)
+If, for example, create_dm is set to N and no DM domain is created, ADSL is not affected. All datasets are created harmoniously once in the background.
 
 Output:
   - SDTM datasets: DM, AE, SV, VS (if specified) <br>
