@@ -53,3 +53,40 @@ proc lifetest data=adtte
 run;
 ~~~
 <img width="484" alt="Image" src="https://github.com/user-attachments/assets/d8fd5dbb-eaab-4e6a-aee7-1b34b029654b" />
+
+
+# %sas_faker
+Purpose: A macro to generate dummy clinical trial data. Creates datasets in SDTM (DM, AE, SV, VS) and ADaM (ADSL, ADAE) formats.
+         Generates pseudo subject data, vital signs, study visits, and adverse events based on user-specified group numbers and sample sizes.
+Author: [Yutaka Morioka]
+Date: July 2, 2025
+Version: 0.1
+Input Parameters:
+  - n_groups: Number of groups (default=2)
+  - n_per_group: Number of subjects per group (default=50)
+  - output_lib: Output library (default=WORK)
+  - seed: Random seed (default=123456)
+  - create_dm: Flag to generate DM dataset (Y/N, default=Y)
+  - create_ae: Flag to generate AE dataset (Y/N, default=Y)
+  - create_sv: Flag to generate SV dataset (Y/N, default=Y)
+  - create_vs: Flag to generate VS dataset (Y/N, default=Y)
+  - create_adsl: Flag to generate ADSL dataset (Y/N, default=Y)
+  - create_adae: Flag to generate ADAE dataset (Y/N, default=Y)
+  - create_adae: Flag to generate ADTTE dataset (Y/N, default=Y)
+Output:
+  - SDTM datasets: DM, AE, SV, VS (if specified)
+  - ADaM datasets: ADSL, ADAE, ADVS, ADTTE (if specified)
+Notes:
+  - Uses a random seed for reproducible data generation.
+  - Utilizes the minimize_charlen macro to optimize character variable lengths.
+  - Generated data mimics the structure of clinical trial data but is not real.
+  - Variable names related to MeDRA dictionary (e.g., F_AELLTCD, F_AEPTCD) are prefixed with "F_" to avoid infringement of intellectual property rights.
+  - Adverse event terms and codes (AETERM, AEDECOD, AEBODSYS, etc.) are structured systematically but are fictitious dictionary coding data and unrelated to the actual MeDRA dictionary.
+
+Example:
+** Generate data with 3 treatment groups, 100 subjects per group.
+%generate_clinical_dummy_data(
+n_groups=3,
+n_per_group=100,
+seed=789012)
+
