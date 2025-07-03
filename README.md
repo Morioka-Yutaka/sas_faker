@@ -96,3 +96,11 @@ n_groups=3,
 n_per_group=100,
 seed=789012)
 ~~~
+
+# version history<br>
+0.1.0(03July2025): Initial version<br>
+
+# What is SAS Packages?
+sashash is built on top of **SAS Packages framework(SPF)** created by Bartosz Jablonski.<br>
+For more on SAS Packages framework, see [SASPAC](https://github.com/yabwon/SAS_PACKAGES).<br>
+You can also find more SAS Packages(SASPAC) in [GitHub](https://github.com/SASPAC)<br>
