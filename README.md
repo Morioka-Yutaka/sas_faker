@@ -101,6 +101,6 @@ seed=789012)
 0.1.0(03July2025): Initial version<br>
 
 # What is SAS Packages?
-sashash is built on top of **SAS Packages framework(SPF)** created by Bartosz Jablonski.<br>
+The package is built on top of **SAS Packages framework(SPF)** created by Bartosz Jablonski.<br>
 For more on SAS Packages framework, see [SASPAC](https://github.com/yabwon/SAS_PACKAGES).<br>
 You can also find more SAS Packages(SASPAC) in [GitHub](https://github.com/SASPAC)<br>
