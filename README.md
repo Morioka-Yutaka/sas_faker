@@ -3,7 +3,7 @@ SAS package to create dummy data in CDISC format for clinical trials
 Purpose: A macro to generate dummy clinical trial data. Creates datasets in SDTM (DM, AE, SV, VS) and ADaM (ADSL, ADAE，ADVS, ADTTE) formats.
 Generates pseudo subject data, vital signs, study visits, and adverse events based on user-specified group numbers and sample sizes.
 
-<img width="180" height="180" alt="Image" src="https://github.com/user-attachments/assets/bc07dd1e-8dd4-432b-a0a3-03bb33a7df4c" />
+<img width="350" height="350" alt="Image" src="https://github.com/user-attachments/assets/bc07dd1e-8dd4-432b-a0a3-03bb33a7df4c" />
 
 ~~~sas  
 /*example*/
