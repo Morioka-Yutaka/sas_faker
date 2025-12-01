@@ -9,8 +9,8 @@
 ### Version information:
   
 - Package: sas_faker
-- Version: 0.1.0
-- Generated: 2025-07-03T07:39:58
+- Version: 0.1.1
+- Generated: 2025-12-01T07:39:58
 - Author(s): Yutaka Morioka(sasyupi@gmail.com)
 - Maintainer(s): Yutaka Morioka(sasyupi@gmail.com)
 - License: MIT
@@ -119,3 +119,4 @@ seed=789012)
   
 ---
  
+
