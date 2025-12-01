@@ -98,6 +98,7 @@ seed=789012)
 ~~~
 
 # version history<br>
+0.1.1(01December2025): bug-fix(ADAE)<br>
 0.1.0(03July2025): Initial version<br>
 
 ## What is SAS Packages?
